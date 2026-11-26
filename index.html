@@ -1,108 +1,219 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#073b70">
 <title>Poly Tanks Africa Limited</title>
+<meta name="description" content="Triple-layer water storage tanks by Poly Tanks Africa Limited.">
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,sans-serif;background:#f4f8fb;color:#17334b;line-height:1.6}
-header{background:#073b65;color:white;padding:20px;text-align:center}
-.logo{font-size:25px;font-weight:bold}
-.logo span{color:#35c5d9}
-nav{margin-top:12px}
-nav a{color:white;text-decoration:none;margin:8px;font-size:14px}
-.hero{background:linear-gradient(120deg,#073b65,#087c9c);color:white;text-align:center;padding:75px 20px}
-.hero h1{font-size:34px;margin-bottom:15px}
-.hero p{font-size:18px}
-.btn{display:inline-block;background:#f5a623;color:#17334b;padding:12px 24px;text-decoration:none;border-radius:6px;margin-top:20px;font-weight:bold}
-section{padding:50px 7%}
-h2{text-align:center;color:#07517c;margin-bottom:25px;font-size:28px}
-.about{text-align:center;max-width:800px;margin:auto}
-.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.product{background:white;padding:25px;text-align:center;border-radius:12px;box-shadow:0 3px 15px #0001}
-.tank{height:130px;width:105px;margin:10px auto 20px;background:linear-gradient(90deg,#0876a8,#25b6ce,#0876a8);border-radius:35px 35px 18px 18px;border-bottom:9px solid #07517c;display:flex;align-items:center;justify-content:center;color:white;font-size:10px;font-weight:bold}
-.product h3{color:#07517c;margin-bottom:8px}
-.why{background:#e6f3f8;text-align:center}
-.contact{background:#073b65;color:white;text-align:center}
-.contact h2{color:white}
-footer{background:#052c49;color:white;text-align:center;padding:20px;font-size:13px}
-@media(max-width:600px){.hero h1{font-size:27px}nav a{display:inline-block}}
+:root{--blue:#073b70;--deep:#05294d;--orange:#f58220;--light:#f4f8fc;--ink:#18324b}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;color:var(--ink);line-height:1.6}
+a{text-decoration:none;color:inherit}
+header{background:var(--blue);color:white;padding:16px 6%;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.logo{font-size:21px;font-weight:900;line-height:1.2}
+.logo span{color:var(--orange)}
+nav{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;font-weight:bold}
+nav a:hover{color:var(--orange)}
+.hero{background:linear-gradient(110deg,#05294df2,#073b70c9);color:white;padding:85px 7%;min-height:430px;display:flex;align-items:center}
+.hero-content{max-width:700px}
+.eyebrow{color:#ffad61;font-weight:bold;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(36px,6vw,62px);line-height:1.08;margin:15px 0}
+.hero p{font-size:18px;max-width:600px;color:#e5eff9}
+.btn{display:inline-block;background:var(--orange);color:white;padding:13px 22px;border-radius:7px;font-weight:bold;margin:8px 7px 0 0}
+.btn.outline{background:transparent;border:1px solid white}
+section{padding:60px 7%}
+.section-title{text-align:center;margin:0 auto 35px;max-width:720px}
+.section-title h2{font-size:32px;color:var(--blue);margin:0 0 8px}
+.section-title p{color:#61758a}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.feature{padding:24px;background:white;border:1px solid #e4ebf2;border-radius:12px;text-align:center}
+.feature .symbol{font-size:32px}
+.feature h3{color:var(--blue);margin:8px 0}
+.soft{background:var(--light)}
+.categories{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.category{background:white;border-radius:13px;overflow:hidden;box-shadow:0 5px 22px #102d5012}
+.category img{width:100%;height:210px;object-fit:cover}
+.category-content{padding:20px}
+.category h3{color:var(--blue);margin:0 0 8px}
 </style>
 </head>
-<body>header>
-<div class="logo">POLY <span>TANKS</span> AFRICA</div>
-<nav>
-<a href="#home">Home</a>
-<a href="#about">About Us</a>
-<a href="#products">Products</a>
-<a href="#contact">Contact</a>
-</nav>
+<body>
+
+<header>
+  <div class="logo">POLY TANKS <span>AFRICA</span><br><small>LIMITED</small></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#technology">Technology</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<div class="hero" id="home">
-<h1>POLY TANKS AFRICA LIMITED</h1>
-<p>Reliable Water Storage Solutions for Homes, Businesses and Industries.</p>
-<a class="btn" href="#products">EXPLORE OUR PRODUCTS</a>
-</div>
+<main>
+<section class="hero" id="home">
+ <div class="hero-content">
+  <div class="eyebrow">Reliable Water Storage Solutions</div>
+  <h1>Built Strong.<br>Built to Last.</h1>
+  <p>Discover quality triple-layer water storage tanks designed for homes, businesses, farms and industry.</p>
+  <a class="btn" href="#products">Explore Our Tanks</a>
+  <a class="btn outline" href="https://wa.me/?text=Hello%20Poly%20Tanks%20Africa%2C%20I%20would%20like%20to%20make%20an%20enquiry.">Contact Us</a>
+ </div>
+</section>
+
+<section id="technology">
+ <div class="section-title">
+  <h2>Triple-Layer Protection</h2>
+  <p>Quality-focused water storage solutions for different environments and applications.</p>
+ </div>
+ <div class="features">
+  <div class="feature"><div class="symbol">☀️</div><h3>UV Protection</h3><p>Designed with UV protection for outdoor use and hot, sunny environments.</p></div>
+  <div class="feature"><div class="symbol">🛡️</div><h3>Food-Safe Material</h3><p>Food-safe materials for appropriate water storage applications.</p></div>
+  <div class="feature"><div class="symbol">💧</div><h3>Triple-Layer Design</h3><p>All our tanks feature triple-layer construction.</p></div>
+ </div>
+</section>
+
+<section class="soft" id="products">
+ <div class="section-title">
+  <h2>Explore Our Tank Range</h2>
+  <p>Different tank designs to suit different storage needs.</p>
+ </div>
+ <div class="categories">
+  <article class="category">
+   <img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=900&q=80" alt="Vertical tank">
+   <div class="category-content"><h3>Vertical Water Tanks</h3><p>Practical upright storage solutions for homes, farms and businesses.</p></div>
+  </article>
+  <article class="category">
+   <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=900&q=80" alt="Horizontal tank">
+   <div class="category-content"><h3>Horizontal Water Tanks</h3><p>Horizontal designs for suitable transport and storage applications.</p></div>
+  </article>
+  <article class="category">
+   <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80" alt="Rectangular tank">
+   <div class="category-content"><h3>Rectangular Water Tanks</h3><p>Space-conscious designs for suitable rooftop and compact installations.</p></div>
+  </article>
+ </div>
+ <p style="text-align:center;font-size:13px;color:#61758a;margin-top:20px">Product photographs are illustrative placeholders pending official Poly Tanks product images.</p>
+</section>
+</main>
+
+<section>
+ <div class="section-title">
+  <h2>Available Tank Colours</h2>
+  <p>Choose from our available tank colours. Confirm availability with our sales team.</p>
+ </div>
+ <div class="colours">
+  <span class="colour"><i class="dot" style="background:#111"></i>Black</span>
+  <span class="colour"><i class="dot" style="background:#1766b1"></i>Blue</span>
+  <span class="colour"><i class="dot" style="background:#278447"></i>Green</span>
+  <span class="colour"><i class="dot" style="background:#fff"></i>White</span>
+  <span class="colour"><i class="dot" style="background:#e7c52d"></i>Yellow</span>
+  <span class="colour"><i class="dot" style="background:#c7b59b"></i>Beige</span>
+ </div>
+</section>
+
+<section class="soft" id="price-list">
+ <div class="section-title">
+  <h2>Our Water Tank Price List</h2>
+  <p>Explore our selected tank capacities and prices in Kenya Shillings.</p>
+ </div>
+ <div class="products">
+  <article class="product"><h3>500 Litres</h3><div class="price">KSh 5,175</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%20500L%20tank">Order Now</a></article>
+  <article class="product"><h3>1,000 Litres</h3><div class="price">KSh 9,525</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%201000L%20tank">Order Now</a></article>
+  <article class="product"><h3>1,500 Litres</h3><div class="price">KSh 11,175</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%201500L%20tank">Order Now</a></article>
+  <article class="product"><h3>2,000 Litres</h3><div class="price">KSh 14,625</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%202000L%20tank">Order Now</a></article>
+  <article class="product"><h3>2,500 Litres</h3><div class="price">KSh 19,800</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%202500L%20tank">Order Now</a></article>
+  <article class="product"><h3>6,000 Litres</h3><div class="price">KSh 46,125</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%206000L%20tank">Order Now</a></article>
+  <article class="product"><h3>10,000 Litres</h3><div class="price">KSh 80,625</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%2010000L%20tank">Order Now</a></article>
+  <article class="product"><h3>12,000 Litres</h3><div class="price">KSh 127,125</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%2012000L%20tank">Order Now</a></article>
+  <article class="product"><h3>16,000 Litres</h3><div class="price">KSh 140,500</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%2016000L%20tank">Order Now</a></article>
+  <article class="product"><h3>20,000 Litres</h3><div class="price">KSh 167,800</div><small>Triple-layer tank</small><br><a class="btn" href="https://wa.me/?text=I%20want%20the%2020000L%20tank">Order Now</a></article>
+ </div>
+ <p style="text-align:center;color:#64788b;font-size:13px;margin-top:20px">Confirm stock, colour, delivery and final price with our sales team.</p>
+</section>
 
 <section id="about">
-<h2>ABOUT OUR COMPANY</h2>
-<div class="about">
-<p>Welcome to <b>Poly Tanks Africa Limited</b>.</p>
-<p>We are building a trusted brand focused on quality water storage solutions, excellent customer service and reliable products.</p>
-<p>Our vision is to become a leading water storage solutions brand across Africa.</p>
-</div>
+ <div class="about">
+  <div>
+   <div class="eyebrow">About Poly Tanks Africa</div>
+   <h2>Water Storage You Can Count On</h2>
+   <p>Poly Tanks Africa Limited is focused on providing practical water storage solutions for homes, businesses, farms and institutions.</p>
+   <p>Our product range includes vertical, horizontal and rectangular tank designs in different capacities and colours.</p>
+   <p class="check">✓ <b>Triple-layer construction</b></p>
+   <p class="check">✓ <b>UV protection</b></p>
+   <p class="check">✓ <b>Food-safe material</b></p>
+   <p class="check">✓ <b>Different sizes and colours</b></p>
+  </div>
+  <div class="feature">
+   <div class="symbol">💧</div>
+   <h3>Our Promise</h3>
+   <p>Built Strong. Built to Last.</p>
+   <p>Reliable water storage solutions for different needs and environments.</p>
+  </div>
+ </div>
 </section>
 
-<section id="products">
-<h2>OUR PRODUCTS</h2>
-<div class="products">
-
-<div class="product">
-<div class="tank">POLY TANKS</div>
-<h3>Water Storage Tanks</h3>
-<p>Reliable storage solutions for homes and businesses.</p>
-</div>
-
-<div class="product">
-<div class="tank">POLY TANKS</div>
-<h3>Domestic Tanks</h3>
-<p>Practical water storage for everyday household needs.</p>
-</div>
-
-<div class="product">
-<div class="tank">POLY TANKS</div>
-<h3>Commercial Tanks</h3>
-<p>Water storage solutions for commercial applications.</p>
-</div>
-
-<div class="product">
-<div class="tank">POLY TANKS</div>
-<h3>Industrial Tanks</h3>
-<p>Storage options for larger projects and industries.</p>
-</div>
-
-</div>
-</section>
-<section class="why">
-<h2>WHY CHOOSE POLY TANKS AFRICA?</h2>
-<p>We are committed to customer satisfaction, dependable service and practical water storage solutions.</p>
-<p>Our goal is to build lasting relationships with customers throughout Africa.</p>
+<section class="soft">
+ <div class="section-title">
+  <h2>Designed for Different Applications</h2>
+  <p>Water storage solutions for a variety of settings.</p>
+ </div>
+ <div class="features">
+  <div class="feature"><div class="symbol">🏠</div><h3>Homes</h3><p>Domestic water storage solutions.</p></div>
+  <div class="feature"><div class="symbol">🌾</div><h3>Agriculture</h3><p>Suitable farm and irrigation storage applications.</p></div>
+  <div class="feature"><div class="symbol">🏭</div><h3>Businesses & Industry</h3><p>Storage solutions for commercial needs.</p></div>
+ </div>
+ <p style="text-align:center;margin-top:25px">Underground installation is suitable only for tank models specifically designed and approved for burial. Rooftop installations require a properly assessed supporting structure.</p>
 </section>
 
-<section id="contact" class="contact">
-<h2>CONTACT US</h2>
-<p>Looking for quality water storage solutions?</p>
-<p>Talk to our team today for product information and quotations.</p>
-<a class="btn" href="https://wa.me/254700000000">CONTACT US ON WHATSAPP</a>
+<section>
+ <div class="section-title">
+  <h2>Frequently Asked Questions</h2>
+  <p>Helpful information before you choose your tank.</p>
+ </div>
+ <div class="faq">
+  <details><summary>Are all Poly Tanks triple-layered?</summary><p>Yes. All our tanks are triple-layered.</p></details>
+  <details><summary>Do your tanks have UV protection?</summary><p>Our tanks feature UV protection. Ask our team for specifications of your selected model.</p></details>
+  <details><summary>Are the tanks food safe?</summary><p>Our tanks are intended for water storage using food-safe materials. Request product specifications for confirmation.</p></details>
+  <details><summary>Do you have different tank shapes?</summary><p>Our range includes vertical, horizontal and rectangular tank designs. Availability varies by model and capacity.</p></details>
+  <details><summary>Can I install a tank underground or on a rooftop?</summary><p>Only use models approved for the intended installation. Underground burial and rooftop support must be properly assessed.</p></details>
+  <details><summary>How do I order?</summary><p>Contact our sales team through WhatsApp to confirm availability, colour and delivery.</p></details>
+ </div>
 </section>
 
-<footer>
-<p><b>POLY TANKS AFRICA LIMITED</b></p>
-<p>Quality • Reliability • Customer Satisfaction</p>
-<p>© 2026 Poly Tanks Africa Limited. All Rights Reserved.</p>
+<div class="banner">
+ <h2>Need the Right Water Tank?</h2>
+ <p>Talk to Poly Tanks Africa Limited today.</p>
+ <a class="btn" href="https://wa.me/?text=Hello%20Poly%20Tanks%20Africa%2C%20I%20would%20like%20to%20enquire%20about%20your%20water%20tanks.">Chat With Us on WhatsApp</a>
+</div>
+
+</main>
+
+<footer id="contact">
+ <div class="footer-grid">
+  <div>
+   <div class="logo">POLY TANKS <span>AFRICA</span></div>
+   <p>Built Strong. Built to Last.<br>Triple-Layer Water Storage Solutions.</p>
+  </div>
+  <div>
+   <h3>Quick Links</h3>
+   <a href="#home">Home</a>
+   <a href="#products">Our Products</a>
+   <a href="#technology">Our Technology</a>
+   <a href="#about">About Us</a>
+  </div>
+  <div>
+   <h3>Contact</h3>
+   <a href="https://wa.me/">WhatsApp Enquiries</a>
+   <a href="#price-list">View Price List</a>
+   <a href="#contact">Contact Our Team</a>
+  </div>
+ </div>
+ <div class="copyright">
+  © 2026 Poly Tanks Africa Limited. All rights reserved.
+ </div>
 </footer>
-
 </body>
 </html>
