@@ -5,650 +5,612 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#087cc1">
-<title>Poly Tanks Africa Limited | Quality Water Storage</title>
-<meta name="description" content="Poly Tanks Africa Limited - Quality double and triple layer water storage tanks in Kenya. Reliable, durable and affordable.">
+
+<title>Poly Tanks Africa Limited | Official Website</title>
+<meta name="description" content="Poly Tanks Africa Limited. Quality triple-layer water tanks, all shapes and sizes, with free delivery.">
 
 <style>
 :root {
-  --blue:#087cc1;
-  --dark:#073b63;
-  --light:#eaf7ff;
-  --orange:#ff8500;
-  --white:#ffffff;
-  --text:#24384b;
+ --blue:#087cc1;
+ --dark:#06395e;
+ --light:#eaf7ff;
+ --orange:#ff8500;
+ --white:#fff;
+ --text:#263b4d;
 }
-* {box-sizing:border-box;margin:0;padding:0}
-html {scroll-behavior:smooth}
-body {
-  font-family:Arial,Helvetica,sans-serif;
-  color:var(--text);
-  line-height:1.6;
-  background:#fff;
-}
-a {text-decoration:none;color:inherit}
-.container {width:90%;max-width:1180px;margin:auto}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;color:var(--text);line-height:1.6}
+a{text-decoration:none}
+.container{width:91%;max-width:1200px;margin:auto}
+
+/* BANNER */
+.top-banner{width:100%;height:auto;display:block}
 
 /* HEADER */
-header {
-  background:white;
-  position:sticky;
-  top:0;
-  z-index:100;
-  box-shadow:0 2px 15px #073b6315;
-}
-.nav {
-  min-height:75px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:20px;
-}
-.logo {
-  font-size:21px;
-  font-weight:900;
-  color:var(--blue);
-  line-height:1.1;
-}
-.logo span {color:var(--orange)}
-.logo small {
-  display:block;
-  font-size:10px;
-  letter-spacing:2px;
-  color:var(--dark);
-}
-nav {display:flex;gap:24px;align-items:center}
-nav a {font-size:14px;font-weight:700}
-nav a:hover {color:var(--orange)}
-.nav-btn {
-  background:var(--orange);
-  color:white;
-  padding:11px 18px;
-  border-radius:30px;
+header{position:sticky;top:0;background:white;z-index:100;box-shadow:0 3px 15px #0002}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:15px 0;gap:15px}
+.logo{font-size:22px;font-weight:900;color:var(--blue);line-height:1.1}
+.logo span{color:var(--orange)}
+.logo small{display:block;font-size:10px;letter-spacing:3px;color:var(--dark)}
+nav{display:flex;gap:20px;align-items:center}
+nav a{font-size:13px;font-weight:bold;color:var(--dark)}
+nav a:hover{color:var(--orange)}
+.nav-btn{background:var(--orange);color:white;padding:10px 15px;border-radius:25px}
+
+/* PROMO STRIP */
+.promo{
+ background:var(--orange);
+ color:white;
+ text-align:center;
+ padding:13px;
+ font-weight:900;
+ letter-spacing:1px;
+ font-size:15px;
 }
 
 /* HERO */
-.hero {
-  background:linear-gradient(120deg,#073b63,#087cc1 65%,#55c4ed);
-  color:white;
-  overflow:hidden;
-  position:relative;
-  padding:75px 0;
+.hero{
+ background:linear-gradient(120deg,#06395e,#087cc1 65%,#50bce8);
+ color:white;padding:65px 0;
 }
-.hero-inner {
-  display:grid;
-  grid-template-columns:1.1fr .9fr;
-  align-items:center;
-  gap:35px;
+.hero-grid{
+ display:grid;grid-template-columns:1.1fr .9fr;
+ gap:30px;align-items:center;
 }
-.tag {
-  display:inline-block;
-  background:#ffffff20;
-  padding:8px 15px;
-  border-radius:30px;
-  font-size:12px;
-  letter-spacing:1px;
-  margin-bottom:20px;
-}
-.hero h1 {
-  font-size:clamp(36px,5vw,61px);
-  line-height:1.08;
-  margin-bottom:20px;
-}
-.hero h1 span {color:#ffb34e}
-.hero p {
-  max-width:540px;
-  color:#e3f5ff;
-  font-size:17px;
-  margin-bottom:28px;
-}
-.btn {
-  display:inline-block;
-  padding:14px 23px;
-  border-radius:7px;
-  font-weight:800;
-  margin:5px 7px 5px 0;
-}
-.btn-orange {background:var(--orange);color:white}
-.btn-white {background:white;color:var(--dark)}
-.hero-art {
-  min-height:330px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  position:relative;
-}
-.tank {
-  width:245px;
-  height:265px;
-  border-radius:48px 48px 28px 28px;
-  background:linear-gradient(90deg,#d9efff,#fff 25%,#a6d7f5 65%,#eaf8ff);
-  position:relative;
-  box-shadow:20px 25px 45px #002b4b66;
-}
-.tank:before {
-  content:"";
-  position:absolute;
-  top:-18px;
-  left:55px;
-  width:135px;
-  height:32px;
-  border-radius:50%;
-  background:#d9efff;
-  border:5px solid #a6d7f5;
-}
-.tank:after {
-  content:"POLY TANKS";
-  position:absolute;
-  top:105px;
-  width:100%;
-  text-align:center;
-  color:var(--blue);
-  font-size:19px;
-  font-weight:900;
-  letter-spacing:1px;
-  border-top:3px solid #8ec6ed;
-  border-bottom:3px solid #8ec6ed;
-  padding:12px 0;
-}
-.tank-base {
-  position:absolute;
-  bottom:0;
-  width:270px;
-  height:15px;
-  background:#d9efff;
-  border-radius:50%;
-}
+.tag{background:#ffffff25;padding:9px 16px;border-radius:30px;font-size:12px}
+.hero h1{font-size:clamp(36px,5vw,60px);line-height:1.1;margin:22px 0}
+.hero h1 span{color:#ffb34e}
+.hero p{font-size:17px;color:#e5f5ff;margin-bottom:25px}
+.hero-photo{width:100%;max-height:390px;object-fit:contain;border-radius:15px}
+.btn{display:inline-block;padding:14px 22px;border-radius:7px;font-weight:bold;margin:5px}
+.btn-orange{background:var(--orange);color:white}
+.btn-white{background:white;color:var(--dark)}
 
-/* FEATURES */
-.features {
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:18px;
-  margin-top:-28px;
-  position:relative;
-  z-index:2;
+/* TRUST */
+.trust{
+ display:grid;grid-template-columns:repeat(4,1fr);
+ gap:15px;padding:30px 0;
 }
-.feature {
-  background:white;
-  padding:23px;
-  text-align:center;
-  border-radius:12px;
-  box-shadow:0 8px 30px #073b6315;
+.trust-card{
+ background:white;padding:20px 10px;text-align:center;
+ box-shadow:0 5px 20px #06395e12;border-radius:10px;
 }
-.feature strong {color:var(--blue);font-size:17px}
-.feature p {font-size:13px;margin-top:5px;color:#637789}
+.trust-card strong{color:var(--blue);font-size:15px}
+.trust-card p{font-size:12px;color:#718394}
 
 /* SECTIONS */
-section {padding:75px 0}
-.section-heading {text-align:center;margin-bottom:38px}
-.section-heading h2 {
-  color:var(--dark);
-  font-size:clamp(27px,4vw,38px);
-  margin-bottom:9px;
-}
-.section-heading p {color:#718394}
-.orange-line {
-  width:60px;height:4px;
-  background:var(--orange);
-  margin:13px auto;
-  border-radius:5px;
-}
+section{padding:65px 0}
+.heading{text-align:center;margin-bottom:35px}
+.heading h2{color:var(--dark);font-size:clamp(27px,4vw,38px)}
+.heading p{color:#718394}
+.line{height:4px;width:60px;background:var(--orange);margin:12px auto;border-radius:5px}
 
-/* PRODUCTS */
-.products {background:#f4faff}
-.product-grid {
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:20px;
+/* SHAPES */
+.shapes{background:#f3faff}
+.shape-grid{
+ display:grid;grid-template-columns:repeat(4,1fr);gap:20px;
 }
-.product {
-  background:white;
-  border-radius:13px;
-  overflow:hidden;
-  box-shadow:0 5px 25px #073b6310;
-  transition:.25s;
+.shape-card{
+ background:white;border-radius:13px;overflow:hidden;
+ box-shadow:0 5px 22px #06395e12;
+ transition:.25s;
 }
-.product:hover {transform:translateY(-6px)}
-.product-visual {
-  height:185px;
-  background:linear-gradient(140deg,#e5f6ff,#c4eaff);
-  display:flex;
-  align-items:center;
-  justify-content:center;
+.shape-card:hover{transform:translateY(-5px)}
+.shape-card img{
+ width:100%;height:210px;object-fit:contain;
+ padding:12px;background:#eaf7ff;
 }
-.mini-tank {
-  width:105px;
-  height:130px;
-  border-radius:22px 22px 12px 12px;
-  background:linear-gradient(90deg,#a4c9e1,#fff 40%,#8dbbd9);
-  position:relative;
-  box-shadow:8px 12px 18px #073b6330;
+.shape-info{padding:18px}
+.shape-info h3{color:var(--dark);font-size:19px}
+.shape-info p{font-size:13px;color:#718394}
+.brand-label{
+ display:inline-block;
+ background:var(--blue);color:white;
+ padding:5px 10px;font-size:11px;
+ font-weight:900;letter-spacing:1px;
+ border-radius:4px;margin:8px 0;
 }
-.mini-tank:before {
-  content:"";
-  position:absolute;
-  top:-9px;left:25px;
-  width:55px;height:17px;
-  border-radius:50%;
-  background:#dcefff;
-  border:3px solid #a4c9e1;
-}
-.mini-tank:after {
-  content:"PT";
-  position:absolute;
-  top:48px;
-  width:100%;
-  text-align:center;
-  font-weight:900;
-  color:var(--blue);
-  font-size:19px;
-}
-.product-info {padding:20px}
-.product-info h3 {color:var(--dark);font-size:19px}
-.price {
-  color:var(--blue);
-  font-weight:900;
-  font-size:22px;
-  margin:10px 0;
-}
-.product-info p {font-size:13px;color:#718394}
-.order-btn {
-  display:block;
-  text-align:center;
-  padding:11px;
-  background:var(--blue);
-  color:white;
-  border-radius:6px;
-  margin-top:16px;
-  font-weight:bold;
-}
-.order-btn:hover {background:var(--dark)}
+.layer-label{color:var(--orange);font-weight:900;font-size:12px}
 
-/* LAYERS */
-.layers-grid {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:25px;
+/* PRODUCT SIZES */
+.product-grid{
+ display:grid;grid-template-columns:repeat(4,1fr);gap:18px;
 }
-.layer {
-  padding:30px;
-  border-radius:14px;
-  background:var(--light);
-  border-left:5px solid var(--blue);
+.product{
+ background:white;border-radius:12px;overflow:hidden;
+ box-shadow:0 5px 20px #06395e15;
 }
-.layer h3 {color:var(--dark);font-size:23px;margin-bottom:10px}
-.layer p {color:#536b7e}
-.layer.triple {border-left-color:var(--orange)}
+.product img{
+ width:100%;height:170px;object-fit:contain;
+ padding:10px;background:#f3faff;
+}
+.product-info{padding:15px}
+.product-info h3{color:var(--dark)}
+.product-info p{font-size:12px;color:#718394}
+.price{font-size:22px;color:var(--blue);font-weight:900;margin:8px 0}
+.order{
+ display:block;background:var(--blue);color:white;
+ text-align:center;padding:11px;border-radius:6px;
+ font-weight:bold;
+}
+.order:hover{background:var(--dark)}
+.delivery{color:#15944f;font-size:12px;font-weight:900;margin:8px 0}
+
+/* TRIPLE LAYER */
+.triple-section{
+ background:linear-gradient(120deg,#06395e,#087cc1);
+ color:white;text-align:center;
+}
+.triple-section h2{font-size:35px}
+.triple-section p{color:#e3f5ff;margin:12px auto;max-width:700px}
+.triple-badge{
+ display:inline-block;background:var(--orange);
+ padding:12px 22px;border-radius:30px;
+ font-weight:900;margin-top:18px;
+}
 
 /* COLOURS */
-.colours {
-  background:#f4faff;
-  text-align:center;
+.colours{background:#f3faff}
+.swatches{display:flex;justify-content:center;gap:25px;flex-wrap:wrap}
+.swatch{text-align:center;width:75px}
+.circle{
+ width:55px;height:55px;border-radius:50%;
+ border:3px solid white;box-shadow:0 2px 10px #0002;
+ margin:auto auto 8px;
 }
-.swatches {
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:25px;
-}
-.swatch {width:85px}
-.circle {
-  width:57px;height:57px;
-  border-radius:50%;
-  margin:auto auto 9px;
-  border:3px solid white;
-  box-shadow:0 2px 10px #0002;
-}
-.swatch p {font-size:13px;font-weight:bold}
+.swatch p{font-size:13px;font-weight:bold}
 
 /* ABOUT */
-.about-grid {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:40px;
-  align-items:center;
+.about-grid{
+ display:grid;grid-template-columns:1fr 1fr;
+ gap:35px;align-items:center;
 }
-.about-art {
-  min-height:280px;
-  border-radius:15px;
-  background:linear-gradient(140deg,#087cc1,#073b63);
-  color:white;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  padding:25px;
+.about-photo{width:100%;height:320px;object-fit:cover;border-radius:14px}
+.about h2{font-size:34px;color:var(--dark);margin-bottom:15px}
+.about p{color:#65798a;margin-bottom:12px}
+.check{color:var(--blue);font-weight:bold;margin:9px 0}
+
+/* FREE DELIVERY */
+.delivery-section{
+ background:#fff4e7;text-align:center;
 }
-.about-art strong {font-size:34px}
-.about-art span {color:#ffb34e;font-weight:bold}
-.about h2 {color:var(--dark);font-size:34px;margin-bottom:15px}
-.about p {margin-bottom:14px;color:#64788a}
-.check {color:var(--blue);font-weight:bold;margin:10px 0}
+.delivery-section h2{font-size:35px;color:var(--dark)}
+.delivery-section h2 span{color:var(--orange)}
+.delivery-section p{margin:12px 0;color:#526a7c}
 
 /* CONTACT */
-.contact {
-  background:linear-gradient(120deg,#073b63,#087cc1);
-  color:white;
-  text-align:center;
+.contact{
+ background:linear-gradient(120deg,#06395e,#087cc1);
+ color:white;text-align:center;
 }
-.contact h2 {font-size:36px;margin-bottom:12px}
-.contact p {color:#e1f3ff;margin-bottom:23px}
+.contact h2{font-size:35px}
+.contact p{color:#e5f5ff;margin:12px 0}
+.contact a.email{color:white;text-decoration:underline}
 
 /* FOOTER */
-footer {
-  background:#052d4b;
-  color:white;
-  padding:35px 0;
+footer{background:#052b48;color:white;padding:38px 0}
+.footer-grid{
+ display:grid;grid-template-columns:2fr 1fr 1fr;gap:25px;
 }
-.footer-inner {
-  display:flex;
-  justify-content:space-between;
-  flex-wrap:wrap;
-  gap:20px;
+footer h3{margin-bottom:12px}
+footer p,footer a{font-size:13px;color:#d1e2ef}
+footer a:hover{color:var(--orange)}
+.copyright{
+ border-top:1px solid #ffffff25;
+ margin-top:25px;padding-top:18px;
+ text-align:center;font-size:12px;color:#b8cfdf;
 }
-footer p {font-size:13px;color:#c6dceb}
-footer a {color:#ffb34e}
 
 /* WHATSAPP */
-.whatsapp {
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  z-index:200;
-  background:#20c66a;
-  color:white;
-  padding:14px 20px;
-  border-radius:40px;
-  font-weight:bold;
-  box-shadow:0 5px 20px #0003;
+.whatsapp{
+ position:fixed;right:18px;bottom:20px;
+ z-index:200;background:#20c66a;color:white;
+ padding:14px 19px;border-radius:40px;
+ font-weight:bold;box-shadow:0 5px 20px #0003;
 }
 
-@media(max-width:850px) {
-  nav {gap:12px}
-  nav a {font-size:12px}
-  .product-grid {grid-template-columns:repeat(2,1fr)}
+@media(max-width:850px){
+ .shape-grid{grid-template-columns:repeat(2,1fr)}
+ .product-grid{grid-template-columns:repeat(2,1fr)}
+ .hero-grid{grid-template-columns:1fr;text-align:center}
+ .hero-photo{max-height:300px}
+ .trust{grid-template-columns:repeat(2,1fr)}
 }
-@media(max-width:600px) {
-  .nav {padding:14px 0;flex-wrap:wrap}
-  nav {width:100%;justify-content:space-between;gap:7px}
-  nav a {font-size:11px}
-  .nav-btn {padding:7px 10px}
-  .hero {padding:55px 0}
-  .hero-inner {grid-template-columns:1fr;text-align:center}
-  .hero p {margin-left:auto;margin-right:auto}
-  .hero-art {min-height:280px}
-  .tank {transform:scale(.85)}
-  .features {grid-template-columns:1fr;margin-top:20px}
-  section {padding:55px 0}
-  .product-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-  .product-info {padding:13px}
-  .product-info h3 {font-size:16px}
-  .price {font-size:18px}
-  .product-visual {height:145px}
-  .mini-tank {transform:scale(.8)}
-  .layers-grid,.about-grid {grid-template-columns:1fr}
-  .contact h2 {font-size:28px}
+@media(max-width:600px){
+ .nav{flex-wrap:wrap}
+ nav{width:100%;justify-content:space-between;gap:4px}
+ nav a{font-size:10px}
+ .nav-btn{padding:7px 9px}
+ section{padding:48px 0}
+ .shape-card img{height:145px}
+ .shape-info{padding:12px}
+ .shape-info h3{font-size:15px}
+ .product img{height:135px}
+ .product-info{padding:11px}
+ .product-info h3{font-size:15px}
+ .price{font-size:18px}
+ .about-grid{grid-template-columns:1fr}
+ .footer-grid{grid-template-columns:1fr}
+ .triple-section h2,.delivery-section h2{font-size:27px}
 }
 </style>
 </head>
 
 <body>
 
+<!-- OFFICIAL BANNER -->
+<img class="top-banner"
+ src="polytanks-banner.png"
+ alt="Poly Tanks Africa Limited Official Banner">
+
+<!-- HEADER -->
 <header>
 <div class="container nav">
-  <a class="logo" href="#home">
-    POLY TANKS <span>AFRICA</span>
-    <small>LIMITED</small>
-  </a>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#products">Products</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a class="nav-btn" href="#products">Shop Now</a>
-  </nav>
+ <a href="#home" class="logo">
+  POLY TANKS <span>AFRICA</span>
+  <small>LIMITED</small>
+ </a>
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#shapes">Shapes</a>
+  <a href="#products">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact" class="nav-btn">Contact</a>
+ </nav>
 </div>
 </header>
 
+<!-- PROMOTION -->
+<div class="promo">
+ FREE DELIVERY • ALL TANKS 100% TRIPLE LAYER
+</div>
+
 <!-- HERO -->
 <section class="hero" id="home">
-<div class="container hero-inner">
-  <div>
-    <span class="tag">QUALITY • DURABILITY • TRUST</span>
-    <h1>Smart Water Storage.<br><span>Built to Last.</span></h1>
-    <p>
-      Welcome to Poly Tanks Africa Limited.
-      Discover reliable, durable and affordable water
-      storage solutions for homes, farms and businesses.
-    </p>
-    <a class="btn btn-orange" href="#products">Explore Our Tanks</a>
-    <a class="btn btn-white"
-       href="https://wa.me/254752727146">
-       Contact Us
-    </a>
-  </div>
-  <div class="hero-art">
-    <div class="tank"></div>
-    <div class="tank-base"></div>
-  </div>
+<div class="container hero-grid">
+ <div>
+  <span class="tag">QUALITY • DURABILITY • TRUST</span>
+  <h1>
+   Smart Water Storage.
+   <span>Built to Last.</span>
+  </h1>
+  <p>
+   Welcome to Poly Tanks Africa Limited.
+   Discover quality water storage solutions in
+   different shapes, sizes and colours.
+   Every tank is 100% triple layer.
+  </p>
+  <a href="#products" class="btn btn-orange">Explore Our Tanks</a>
+  <a href="#contact" class="btn btn-white">Contact Us</a>
+ </div>
+ <div>
+  <img class="hero-photo"
+   src="images/poly-tanks-main.jpg"
+   alt="POLY TANKS AFRICA branded water tank">
+ </div>
 </div>
 </section>
 
-<!-- FEATURES -->
-<div class="container features">
-  <div class="feature">
-    <strong>Triple Layer Technology</strong>
-    <p>Advanced water storage options</p>
-  </div>
-  <div class="feature">
-    <strong>Quality & Durability</strong>
-    <p>Designed for dependable storage</p>
-  </div>
-  <div class="feature">
-    <strong>Customer Focused</strong>
-    <p>Solutions for every water need</p>
-  </div>
+<!-- COMPANY ADVANTAGES -->
+<div class="container trust">
+ <div class="trust-card">
+  <strong>FREE DELIVERY</strong>
+  <p>Delivery at no extra cost</p>
+ </div>
+ <div class="trust-card">
+  <strong>100% TRIPLE LAYER</strong>
+  <p>Every tank is triple layered</p>
+ </div>
+ <div class="trust-card">
+  <strong>ALL SHAPES</strong>
+  <p>Different tank designs</p>
+ </div>
+ <div class="trust-card">
+  <strong>ALL SIZES</strong>
+  <p>Multiple storage capacities</p>
+ </div>
 </div>
 
-<!-- PRODUCTS -->
-<section class="products" id="products">
+<!-- FOUR TANK SHAPES -->
+<section class="shapes" id="shapes">
 <div class="container">
-  <div class="section-heading">
-    <h2>Our Water Tanks</h2>
-    <div class="orange-line"></div>
-    <p>Find the right capacity for your water storage needs.</p>
+ <div class="heading">
+  <h2>Explore Our Tank Shapes</h2>
+  <div class="line"></div>
+  <p>Discover the POLY TANKS collection.</p>
+ </div>
+
+ <div class="shape-grid">
+
+  <div class="shape-card">
+   <img src="images/vertical-tank.jpg"
+    alt="POLY TANKS Vertical Cylindrical">
+   <div class="shape-info">
+    <h3>POLY TANKS VERTICAL</h3>
+    <span class="brand-label">POLY TANKS</span>
+    <p>Vertical Cylindrical Water Tanks</p>
+    <p class="layer-label">100% TRIPLE LAYER</p>
+   </div>
   </div>
 
-  <div class="product-grid">
-
-    <div class="product">
-      <div class="product-visual"><div class="mini-tank"></div></div>
-      <div class="product-info">
-        <h3>500 Litres</h3>
-        <p>Compact water storage solution</p>
-        <div class="price">KSh 5,175</div>
-        <a class="order-btn" href="https://wa.me/254752727146?text=I%20am%20interested%20in%20the%20500L%20tank">Order Now</a>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="product-visual"><div class="mini-tank"></div></div>
-      <div class="product-info">
-        <h3>1,000 Litres</h3>
-        <p>Ideal for everyday household use</p>
-        <div class="price">KSh 9,525</div>
-        <a class="order-btn" href="https://wa.me/254752727146?text=I%20am%20interested%20in%20the%201000L%20tank">Order Now</a>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="product-visual"><div class="mini-tank"></div></div>
-      <div class="product-info">
-        <h3>1,500 Litres</h3>
-        <p>More capacity for your needs</p>
-        <div class="price">KSh 11,175</div>
-        <a class="order-btn" href="https://wa.me/254752727146?text=I%20am%20interested%20in%20the%201500L%20tank">Order Now</a>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="product-visual"><div class="mini-tank"></div></div>
-      <div class="product-info">
-        <h3>2,000 Litres</h3>
-        <p>Practical family water storage</p>
-        <div class="price">KSh 14,625</div>
-        <a class="order-btn" href="https://wa.me/254752727146?text=I%20am%20interested%20in%20the%202000L%20tank">Order Now</a>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="product-visual"><div class="mini-tank"></div></div>
-      <div class="product-info">
-        <h3>2,500 Litres</h3>
-        <p>Convenient medium-sized storage</p>
-        <div class="price">KSh 19,800</div>
-        <a class="order-btn" href="https://wa.me/254752727146?text=I%20am%20interested%20in%20the%202500L%20tank">Order Now</a>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="product-visual"><div class="mini-tank"></div></div>
-      <div class="product-info">
-        <h3>6,000 Litres</h3>
-        <p>Large-scale water storage</p>
-        <div class="price">KSh 46,125</div>
-        <a class="order-btn" href="https://wa.me/254752727146?text=I%20am%20interested%20in%20the%206000L%20tank">Order Now</a>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="product-visual"><div class="mini-tank"></div></div>
-      <div class="product-info">
-        <h3>10,000 Litres</h3>
-        <p>High-capacity water storage</p>
-        <div class="price">KSh 80,625</div>
-        <a class="order-btn" href="https://wa.me/254752727146?text=I%20am%20interested%20in%20the%2010000L%20tank">Order Now</a>
-      </div>
-    </div>
-
-    <div class="product">
-      <div class="product-visual"><div class="mini-tank"></div></div>
-      <div class="product-info">
-        <h3>12,000 Litres</h3>
-        <p>Maximum storage capacity</p>
-        <div class="price">KSh 127,125</div>
-        <a class="order-btn" href="https://wa.me/254752727146?text=I%20am%20interested%20in%20the%2012000L%20tank">Order Now</a>
-      </div>
-    </div>
-
+  <div class="shape-card">
+   <img src="images/horizontal-tank.jpg"
+    alt="POLY TANKS Horizontal">
+   <div class="shape-info">
+    <h3>POLY TANKS HORIZONTAL</h3>
+    <span class="brand-label">POLY TANKS</span>
+    <p>Horizontal Water Storage Tanks</p>
+    <p class="layer-label">100% TRIPLE LAYER</p>
+   </div>
   </div>
+
+  <div class="shape-card">
+   <img src="images/rectangular-tank.jpg"
+    alt="POLY TANKS Rectangular">
+   <div class="shape-info">
+    <h3>POLY TANKS RECTANGULAR</h3>
+    <span class="brand-label">POLY TANKS</span>
+    <p>Rectangular Water Storage Tanks</p>
+    <p class="layer-label">100% TRIPLE LAYER</p>
+   </div>
+  </div>
+
+  <div class="shape-card">
+   <img src="images/loft-tank.jpg"
+    alt="POLY TANKS Loft">
+   <div class="shape-info">
+    <h3>POLY TANKS LOFT</h3>
+    <span class="brand-label">POLY TANKS</span>
+    <p>Loft Water Storage Tanks</p>
+    <p class="layer-label">100% TRIPLE LAYER</p>
+   </div>
+  </div>
+
+ </div>
 </div>
 </section>
 
-<!-- TANK LAYERS -->
-<section id="layers">
+<!-- TANK CAPACITIES AND PRICES -->
+<section id="products">
 <div class="container">
-  <div class="section-heading">
-    <h2>Choose Your Tank Technology</h2>
-    <div class="orange-line"></div>
-    <p>Options to suit different storage requirements.</p>
+
+ <div class="heading">
+  <h2>Our Tank Capacities & Prices</h2>
+  <div class="line"></div>
+  <p>Quality POLY TANKS in different storage capacities.</p>
+ </div>
+
+ <div class="product-grid">
+
+  <div class="product">
+   <img src="images/tank-500l.jpg" alt="POLY TANKS 500L">
+   <div class="product-info">
+    <h3>POLY TANKS 500L</h3>
+    <p>500 Litres • Triple Layer</p>
+    <div class="price">KSh 5,175</div>
+    <div class="delivery">✓ FREE DELIVERY</div>
+    <a class="order" href="https://wa.me/254752727146?text=I%20want%20POLY%20TANKS%20500L">Order Now</a>
+   </div>
   </div>
-  <div class="layers-grid">
-    <div class="layer">
-      <h3>Double Layer Tanks</h3>
-      <p>Two-layer construction for dependable water storage. Ask our team about available capacities and colours.</p>
-    </div>
-    <div class="layer triple">
-      <h3>Triple Layer Tanks</h3>
-      <p>Three-layer construction designed for enhanced protection and reliable water storage.</p>
-    </div>
+
+  <div class="product">
+   <img src="images/tank-1000l.jpg" alt="POLY TANKS 1000L">
+   <div class="product-info">
+    <h3>POLY TANKS 1000L</h3>
+    <p>1,000 Litres • Triple Layer</p>
+    <div class="price">KSh 9,525</div>
+    <div class="delivery">✓ FREE DELIVERY</div>
+    <a class="order" href="https://wa.me/254752727146?text=I%20want%20POLY%20TANKS%201000L">Order Now</a>
+   </div>
   </div>
+
+  <div class="product">
+   <img src="images/tank-1500l.jpg" alt="POLY TANKS 1500L">
+   <div class="product-info">
+    <h3>POLY TANKS 1500L</h3>
+    <p>1,500 Litres • Triple Layer</p>
+    <div class="price">KSh 11,175</div>
+    <div class="delivery">✓ FREE DELIVERY</div>
+    <a class="order" href="https://wa.me/254752727146?text=I%20want%20POLY%20TANKS%201500L">Order Now</a>
+   </div>
+  </div>
+
+  <div class="product">
+   <img src="images/tank-2000l.jpg" alt="POLY TANKS 2000L">
+   <div class="product-info">
+    <h3>POLY TANKS 2000L</h3>
+    <p>2,000 Litres • Triple Layer</p>
+    <div class="price">KSh 14,625</div>
+    <div class="delivery">✓ FREE DELIVERY</div>
+    <a class="order" href="https://wa.me/254752727146?text=I%20want%20POLY%20TANKS%202000L">Order Now</a>
+   </div>
+  </div>
+
+  <div class="product">
+   <img src="images/tank-2500l.jpg" alt="POLY TANKS 2500L">
+   <div class="product-info">
+    <h3>POLY TANKS 2500L</h3>
+    <p>2,500 Litres • Triple Layer</p>
+    <div class="price">KSh 19,800</div>
+    <div class="delivery">✓ FREE DELIVERY</div>
+    <a class="order" href="https://wa.me/254752727146?text=I%20want%20POLY%20TANKS%202500L">Order Now</a>
+   </div>
+  </div>
+
+  <div class="product">
+   <img src="images/tank-6000l.jpg" alt="POLY TANKS 6000L">
+   <div class="product-info">
+    <h3>POLY TANKS 6000L</h3>
+    <p>6,000 Litres • Triple Layer</p>
+    <div class="price">KSh 46,125</div>
+    <div class="delivery">✓ FREE DELIVERY</div>
+    <a class="order" href="https://wa.me/254752727146?text=I%20want%20POLY%20TANKS%206000L">Order Now</a>
+   </div>
+  </div>
+
+  <div class="product">
+   <img src="images/tank-10000l.jpg" alt="POLY TANKS 10000L">
+   <div class="product-info">
+    <h3>POLY TANKS 10000L</h3>
+    <p>10,000 Litres • Triple Layer</p>
+    <div class="price">KSh 80,625</div>
+    <div class="delivery">✓ FREE DELIVERY</div>
+    <a class="order" href="https://wa.me/254752727146?text=I%20want%20POLY%20TANKS%2010000L">Order Now</a>
+   </div>
+  </div>
+
+  <div class="product">
+   <img src="images/tank-12000l.jpg" alt="POLY TANKS 12000L">
+   <div class="product-info">
+    <h3>POLY TANKS 12000L</h3>
+    <p>12,000 Litres • Triple Layer</p>
+    <div class="price">KSh 127,125</div>
+    <div class="delivery">✓ FREE DELIVERY</div>
+    <a class="order" href="https://wa.me/254752727146?text=I%20want%20POLY%20TANKS%2012000L">Order Now</a>
+   </div>
+  </div>
+
+ </div>
+</div>
+</section>
+
+<!-- TRIPLE LAYER PROMISE -->
+<section class="triple-section">
+<div class="container">
+ <h2>EVERY TANK. TRIPLE LAYER.</h2>
+ <p>
+  At Poly Tanks Africa Limited, all our water tanks
+  are triple-layered. Choose your preferred shape,
+  size and colour.
+ </p>
+ <div class="triple-badge">100% TRIPLE LAYER QUALITY</div>
 </div>
 </section>
 
 <!-- COLOURS -->
 <section class="colours">
 <div class="container">
-  <div class="section-heading">
-    <h2>Available Tank Colours</h2>
-    <div class="orange-line"></div>
-    <p>Choose a colour that suits your space and preference.</p>
-  </div>
-  <div class="swatches">
-    <div class="swatch"><div class="circle" style="background:#ffffff"></div><p>White</p></div>
-    <div class="swatch"><div class="circle" style="background:#087cc1"></div><p>Blue</p></div>
-    <div class="swatch"><div class="circle" style="background:#16834a"></div><p>Green</p></div>
-    <div class="swatch"><div class="circle" style="background:#171717"></div><p>Black</p></div>
-    <div class="swatch"><div class="circle" style="background:#a8a8a8"></div><p>Grey</p></div>
-    <div class="swatch"><div class="circle" style="background:#b7a06b"></div><p>Beige</p></div>
-  </div>
+ <div class="heading">
+  <h2>Choose Your Tank Colour</h2>
+  <div class="line"></div>
+  <p>Different colours to suit your preference.</p>
+ </div>
+
+ <div class="swatches">
+  <div class="swatch"><div class="circle" style="background:#fff"></div><p>White</p></div>
+  <div class="swatch"><div class="circle" style="background:#087cc1"></div><p>Blue</p></div>
+  <div class="swatch"><div class="circle" style="background:#16834a"></div><p>Green</p></div>
+  <div class="swatch"><div class="circle" style="background:#171717"></div><p>Black</p></div>
+  <div class="swatch"><div class="circle" style="background:#999"></div><p>Grey</p></div>
+  <div class="swatch"><div class="circle" style="background:#b7a06b"></div><p>Beige</p></div>
+ </div>
 </div>
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="about">
+<section class="about" id="about">
 <div class="container about-grid">
-  <div class="about-art">
-    <strong>POLY TANKS</strong>
-    <span>AFRICA LIMITED</span>
-    <p>Reliable Water Storage Solutions</p>
-  </div>
-  <div>
-    <h2>About Poly Tanks Africa Limited</h2>
-    <p>
-      We are committed to providing quality water storage
-      solutions for households, institutions, farms and
-      commercial customers.
-    </p>
-    <p>
-      Our product range offers different capacities,
-      colours and tank construction options to meet
-      different customer needs.
-    </p>
-    <div class="check">✓ Quality-focused products</div>
-    <div class="check">✓ Multiple storage capacities</div>
-    <div class="check">✓ Double and triple layer options</div>
-    <div class="check">✓ Customer-oriented service</div>
-  </div>
+
+ <div>
+  <img class="about-photo"
+   src="images/poly-tanks-brand.jpg"
+   alt="Poly Tanks Africa Limited branded tanks">
+ </div>
+
+ <div>
+  <h2>About Poly Tanks Africa Limited</h2>
+  <p>
+   Welcome to Poly Tanks Africa Limited, your destination
+   for quality water storage solutions.
+  </p>
+  <p>
+   We offer triple-layer water tanks in different
+   shapes, capacities and colours for homes, farms,
+   institutions and businesses.
+  </p>
+  <div class="check">✓ Every tank is triple layer</div>
+  <div class="check">✓ Four different tank shapes</div>
+  <div class="check">✓ Multiple capacities and colours</div>
+  <div class="check">✓ FREE DELIVERY</div>
+ </div>
+
+</div>
+</section>
+
+<!-- DELIVERY -->
+<section class="delivery-section">
+<div class="container">
+ <h2><span>FREE DELIVERY!</span></h2>
+ <p>
+  Enjoy free delivery with your POLY TANKS purchase.
+  Contact our team to arrange your delivery.
+ </p>
+ <a class="btn btn-orange" href="https://wa.me/254752727146">
+  Order Your Tank Today
+ </a>
 </div>
 </section>
 
 <!-- CONTACT -->
 <section class="contact" id="contact">
 <div class="container">
-  <h2>Need a Water Tank?</h2>
-  <p>Talk to our team today and find the right tank for your needs.</p>
-  <a class="btn btn-orange"
-     href="https://wa.me/254752727146">
-     Chat With Us on WhatsApp
-  </a>
-  <a class="btn btn-white" href="tel:+254752727146">
-     Call Us
-  </a>
+ <h2>Let's Talk Water Storage!</h2>
+ <p>Choose your tank and contact our team today.</p>
+
+ <p>📞 +254 752 727 146</p>
+ <p>✉ <a class="email" href="mailto:polytanksafricalimited@gmail.com">
+  polytanksafricalimited@gmail.com
+ </a></p>
+
+ <a class="btn btn-orange"
+  href="https://wa.me/254752727146">
+  WhatsApp Us
+ </a>
+
+ <a class="btn btn-white"
+  href="mailto:polytanksafricalimited@gmail.com">
+  Email Us
+ </a>
 </div>
 </section>
 
+<!-- FOOTER -->
 <footer>
-<div class="container footer-inner">
+<div class="container">
+
+ <div class="footer-grid">
   <div>
-    <h3>POLY TANKS AFRICA LIMITED</h3>
-    <p>Quality Water Storage Solutions.</p>
+   <h3>POLY TANKS AFRICA LIMITED</h3>
+   <p>Quality Water Storage Solutions.</p>
+   <p>Every Tank. Triple Layer. Free Delivery.</p>
   </div>
+
   <div>
-    <p>WhatsApp: +254 752 727 146</p>
-    <p>Email: Contact us for enquiries</p>
+   <h3>Quick Links</h3>
+   <p><a href="#home">Home</a></p>
+   <p><a href="#shapes">Tank Shapes</a></p>
+   <p><a href="#products">Products</a></p>
+   <p><a href="#about">About Us</a></p>
   </div>
+
   <div>
-    <p>© 2026 Poly Tanks Africa Limited.</p>
-    <p>All Rights Reserved.</p>
+   <h3>Contact Us</h3>
+   <p>Phone: +254 752 727 146</p>
+   <p><a href="mailto:polytanksafricalimited@gmail.com">
+    polytanksafricalimited@gmail.com
+   </a></p>
   </div>
+ </div>
+
+ <div class="copyright">
+  © 2026 Poly Tanks Africa Limited. All Rights Reserved.
+ </div>
 </div>
 </footer>
 
-<a class="whatsapp"
-   href="https://wa.me/254752727146">
-   WhatsApp Us
+<a class="whatsapp" href="https://wa.me/254752727146">
+ WhatsApp Us
 </a>
 
 </body>
